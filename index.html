@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+    <title>Saloon Ever</title>
+</head>
+<body>
+    <div class="main-container" id="main">
+        
+        <div class="nav">
+            <div class="logo">
+<img src="src/logo.png" alt="">
+            </div>
+
+            <!-- <div class="nav-menu">
+                <a href="#main">Home</a>
+                <a href="#service-section">Services</a>
+                <a href="#offers">Offers</a>
+                <a href="#contact-section">Contact</a>
+            </div> -->
+
+            <div class="nav-menu">
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="menu-items">
+                    <a href="#main">Home</a>
+                    <a href="#service-section">Services</a>
+                    <a href="#offers">Offers</a>
+                    <a href="#contact-section">Contact</a>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="landing-page">
+            <div>    <img src="src/barber.png" alt="backgorund-landing"></div>
+            <div class="header-name">  <h1>Glam Haven</h1> <br>
+            <h5>Welcome to Saloon Glam Haven , where grooming meets style. <br> Step into an environment designed exclusively for the modern man, <br> where our skilled barbers are committed to enhancing your look and confidence."</h5>
+      
+
+                <button>Find More </button>
+      
+            </div>
+
+        </div>
+        <div class="service-section" id="service-section">
+<h2>Featured Services</h2>
+
+<div>
+    <table>
+        <tr>
+            <td  class="trigger-element"> <img src="src/SR1.jpg" alt=""></td>
+            <td  class="trigger-element"> <img src="src/SR2.jpg" alt=""></td>
+            <td class="trigger-element"  > <img src="src/SR1.jpg" alt=""></td>
+            <td class="trigger-element"  > <img src="src/SR2.jpg" alt=""></td>
+      
+        </tr>
+        <tr>
+            <td>Precision Haircuts</td>
+            <td>Classic Barbering</td>
+            <td>Beard Trims and Sculpting</td>
+            <td>Scalp Treatmentt</td>
+        </tr>
+    </table>
+</div>
+</div>
+
+<h2>Offers</h2>
+<div class="offers" id="offers">
+
+    <div> <img src="src/barber-feature.jpg" alt=""></div>
+    <div class="offer-details">
+        <h4>Unlock the gentleman within with our exclusive offers</h4>
+
+        <p>Established in 1998, Saloon Glam Haven  has been a haven for men seeking top-notch grooming services. <br> Our journey began with a commitment to redefining the grooming experience for the modern man.
+
+        </p>
+        <h5   onclick="showPopup()" >Click to See Special Offers </h5>
+        <ul>
+            <li>New Client Discount: 15% off your first visit</li>
+            <li>Seasonal Specials: Pamper yourself with limited-time grooming packages</li>
+            <li>Referral Rewards: Refer a friend and both receive a discount on your next appointment"</li>
+        </ul>
+    </div>
+</div>
+
+
+<h2>Contact Us</h2>
+<div class="contact-section" id="contact-section">
+
+    <div class="contact-details">
+        <h4>Contact Information</h4>
+        <p>123 Main Street</p>
+        <p>Colombo, Sri Lanka </p>
+        <p>Phone: <a href="tel:+94 74 15 74 904">+94 74 15 74 904</a></p>
+        <p>Email: <a href="mailto:lahiruprabathft@gmail.com">lahiruprabathft@gmail.com</a></p>
+
+        <img src="src/location.jpg" alt="">
+    </div>
+    
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button onclick="submitform ()">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+
+ <div class="popup-div">
+    <div class="popup" id="myPopup">
+
+    <span onclick="hidePopup()"> X</span>
+    <img src="src/offer.jpg" alt="">
+       
+</div>
+
+
+ </div>      
+
+
+ <div class="success-message" id="successMessage">
+    <p>Successfully Submitted !</p>
+</div>
+
+
+    </div>
+
+<div class="footer">
+    <p>All Right Reserved By : <a href="https://lahiruprabathft.github.io/my-portfolio/" target="new">Lahiru Prabath</a>  </p>
+</div>
+
+</body>
+</html>

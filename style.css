@@ -333,7 +333,21 @@ padding: 5px;
     opacity: 85%;
     font-size: 11px;
     padding: 15px 0;
+   
 }
+
+.footer img{
+    width: 18px; 
+    align-items: center;
+     vertical-align: middle; 
+     margin: 0 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    vertical-align: middle; 
+}
+
 
 
 @media only screen and (max-width: 600px) {
